@@ -6,7 +6,7 @@ col1, col2, col3 = st.columns([1, 2, 3])
 
 with col1:
   st.image("spacex.jpg", width=500)
-  st.write("Space Exploration Technologies Corp., cujo nome comercial é SpaceX, é uma fabricante estadunidense de sistemas aeroespaciais, transporte espacial e comunicações com sede em Boca Chica, perto de Brownsville, no Texas.")
+  st.write("SpaceX é uma fabricante estadunidense de sistemas aeroespaciais, transporte espacial e comunicações com sede em Boca Chica, perto de Brownsville, no Texas.")
   st.link_button("Acessar Site", "https://www.spacex.com/")
   
 with col2:

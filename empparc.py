@@ -4,7 +4,7 @@ st.set_page_config(layout="wide")
 st.title("Empresas Parceiras")
 st.markdown("<br>", unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns([3.3, 3.3, 3.3])
+col1, col2, col3 = st.columns(3)
 
 with col1:
   st.image("spacex.jpg")

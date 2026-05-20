@@ -12,7 +12,10 @@ with col2:
 
 with col3:
   st.image("netflix.jpg")
+  
+st.write("")
 
+st.markdown("<br>", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([1, 2, 3])
 

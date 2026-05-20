@@ -13,7 +13,7 @@ with col1:
   st.link_button("Acessar Site", "https://www.spacex.com/")
   
 with col2:
-  st.image("apple.jpg", width=600)
+  st.image("apple.jpg")
   st.title("Apple")
   st.write("Multinacional americana. Famosa por revolucionar a tecnologia pessoal com o iPhone, Mac e iPad.")
   st.link_button("Acessar Site", "https://www.apple.com/br/")

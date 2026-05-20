@@ -5,7 +5,7 @@ st.title("Empresas Parceiras")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-  st.image("spacex.jpg", use_container_width=True)
+  st.image("spacex.jpg", width=400)
   st.write("SpaceX é uma fabricante estadunidense de sistemas aeroespaciais, transporte espacial e comunicações com sede em Boca Chica, perto de Brownsville, no Texas.")
   st.link_button("Acessar Site", "https://www.spacex.com/")
   

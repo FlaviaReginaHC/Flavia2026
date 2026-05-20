@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Empresas Parceiras")
 st.markdown("<br>", unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns([3.3, 3.3, 3.3])
 
 with col1:
   st.image("spacex.jpg")
